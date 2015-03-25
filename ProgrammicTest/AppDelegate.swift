@@ -23,7 +23,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         kFIFullScreen = UIScreen.mainScreen().bounds
         var temp = kFIFullScreen
-        temp?.size.height *= 1.2
         kFIFullScreen = temp
         
         // Override point for customization after application launch.

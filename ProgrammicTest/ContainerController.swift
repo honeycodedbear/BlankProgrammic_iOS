@@ -19,8 +19,8 @@ class ContainerController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.frame = kFIFullScreen!
-        self.view.backgroundColor = UIColor.blueColor()
-        
+        var child = UIView(frame: CGRect(x:0,y:0,width:100,height:100))
+        child.backgroundColor = UIColor.redColor()
+        self.view.addSubview(child)
     }
 }
