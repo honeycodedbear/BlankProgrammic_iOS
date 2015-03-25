@@ -10,10 +10,10 @@
 		AF7F86601AC3414000B49EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7F865F1AC3414000B49EB2 /* AppDelegate.swift */; };
 		AF7F86631AC3414000B49EB2 /* ProgrammicTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF7F86611AC3414000B49EB2 /* ProgrammicTest.xcdatamodeld */; };
 		AF7F86651AC3414000B49EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7F86641AC3414000B49EB2 /* ViewController.swift */; };
-		AF7F86681AC3414000B49EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7F86661AC3414000B49EB2 /* Main.storyboard */; };
 		AF7F866A1AC3414000B49EB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7F86691AC3414000B49EB2 /* Images.xcassets */; };
-		AF7F866D1AC3414000B49EB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7F866B1AC3414000B49EB2 /* LaunchScreen.xib */; };
 		AF7F86791AC3414000B49EB2 /* ProgrammicTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7F86781AC3414000B49EB2 /* ProgrammicTestTests.swift */; };
+		AF7F86BA1AC34A4E00B49EB2 /* SwiftStudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7F86B91AC34A4E00B49EB2 /* SwiftStudyViewController.swift */; };
+		AF7F86BC1AC350A400B49EB2 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7F86BB1AC350A400B49EB2 /* ContainerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +32,12 @@
 		AF7F865F1AC3414000B49EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF7F86621AC3414000B49EB2 /* ProgrammicTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProgrammicTest.xcdatamodel; sourceTree = "<group>"; };
 		AF7F86641AC3414000B49EB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF7F86671AC3414000B49EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF7F86691AC3414000B49EB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AF7F866C1AC3414000B49EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AF7F86721AC3414000B49EB2 /* ProgrammicTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammicTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7F86771AC3414000B49EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF7F86781AC3414000B49EB2 /* ProgrammicTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammicTestTests.swift; sourceTree = "<group>"; };
+		AF7F86B91AC34A4E00B49EB2 /* SwiftStudyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftStudyViewController.swift; sourceTree = "<group>"; };
+		AF7F86BB1AC350A400B49EB2 /* ContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				AF7F865F1AC3414000B49EB2 /* AppDelegate.swift */,
+				AF7F86BB1AC350A400B49EB2 /* ContainerController.swift */,
 				AF7F86641AC3414000B49EB2 /* ViewController.swift */,
-				AF7F86661AC3414000B49EB2 /* Main.storyboard */,
+				AF7F86B91AC34A4E00B49EB2 /* SwiftStudyViewController.swift */,
 				AF7F86691AC3414000B49EB2 /* Images.xcassets */,
-				AF7F866B1AC3414000B49EB2 /* LaunchScreen.xib */,
 				AF7F86611AC3414000B49EB2 /* ProgrammicTest.xcdatamodeld */,
 				AF7F865D1AC3414000B49EB2 /* Supporting Files */,
 			);
@@ -195,8 +195,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF7F86681AC3414000B49EB2 /* Main.storyboard in Resources */,
-				AF7F866D1AC3414000B49EB2 /* LaunchScreen.xib in Resources */,
 				AF7F866A1AC3414000B49EB2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +214,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF7F86651AC3414000B49EB2 /* ViewController.swift in Sources */,
+				AF7F86BC1AC350A400B49EB2 /* ContainerController.swift in Sources */,
 				AF7F86631AC3414000B49EB2 /* ProgrammicTest.xcdatamodeld in Sources */,
+				AF7F86BA1AC34A4E00B49EB2 /* SwiftStudyViewController.swift in Sources */,
 				AF7F86601AC3414000B49EB2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,25 +238,6 @@
 			targetProxy = AF7F86731AC3414000B49EB2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		AF7F86661AC3414000B49EB2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF7F86671AC3414000B49EB2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AF7F866B1AC3414000B49EB2 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF7F866C1AC3414000B49EB2 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AF7F867A1AC3414000B49EB2 /* Debug */ = {
@@ -340,9 +321,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ProgrammicTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -350,9 +333,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ProgrammicTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -409,6 +394,7 @@
 				AF7F867E1AC3414000B49EB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF7F867F1AC3414000B49EB2 /* Build configuration list for PBXNativeTarget "ProgrammicTestTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +403,7 @@
 				AF7F86811AC3414000B49EB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
