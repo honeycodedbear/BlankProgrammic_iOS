@@ -12,6 +12,7 @@
 		AF7F866A1AC3414000B49EB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7F86691AC3414000B49EB2 /* Images.xcassets */; };
 		AF7F86791AC3414000B49EB2 /* ProgrammicTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7F86781AC3414000B49EB2 /* ProgrammicTestTests.swift */; };
 		AF7F86BC1AC350A400B49EB2 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7F86BB1AC350A400B49EB2 /* ContainerController.swift */; };
+		AF7F86F01AC46C1800B49EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7F86EF1AC46C1800B49EB2 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		AF7F86771AC3414000B49EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF7F86781AC3414000B49EB2 /* ProgrammicTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammicTestTests.swift; sourceTree = "<group>"; };
 		AF7F86BB1AC350A400B49EB2 /* ContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		AF7F86EF1AC46C1800B49EB2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				AF7F865F1AC3414000B49EB2 /* AppDelegate.swift */,
+				AF7F86EF1AC46C1800B49EB2 /* ViewController.swift */,
 				AF7F86BB1AC350A400B49EB2 /* ContainerController.swift */,
 				AF7F86691AC3414000B49EB2 /* Images.xcassets */,
 				AF7F86611AC3414000B49EB2 /* ProgrammicTest.xcdatamodeld */,
@@ -209,6 +212,7 @@
 			files = (
 				AF7F86BC1AC350A400B49EB2 /* ContainerController.swift in Sources */,
 				AF7F86631AC3414000B49EB2 /* ProgrammicTest.xcdatamodeld in Sources */,
+				AF7F86F01AC46C1800B49EB2 /* ViewController.swift in Sources */,
 				AF7F86601AC3414000B49EB2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

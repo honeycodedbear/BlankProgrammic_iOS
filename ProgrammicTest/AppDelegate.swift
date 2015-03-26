@@ -21,15 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        kFIFullScreen = UIScreen.mainScreen().bounds
-        var temp = kFIFullScreen
-        kFIFullScreen = temp
         
         // Override point for customization after application launch.
-        self.window!.backgroundColor = UIColor.whiteColor()
+        self.window!.backgroundColor = UIColor.redColor()
         self.window!.makeKeyAndVisible()
-        
-        self.window!.rootViewController = ContainerController.sharedInstance
+        self.window!.rootViewController = ViewController()
 
         return true
     }
